@@ -1,0 +1,10 @@
+pandas
+numpy
+torch
+duckdb
+scikit-learn
+matplotlib
+seaborn
+jupyter
+tqdm
+
