@@ -1,1 +1,75 @@
-#
+# ======================================
+# Python & ML Project .gitignore
+# ======================================
+
+# ---- Python Bytecode ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual Environments ----
+.env
+.venv
+venv/
+env/
+.conda/
+.conda_env/
+*.egg-info/
+dist/
+build/
+
+# ---- IDE & Editor settings ----
+.vscode/
+.idea/
+*.iml
+
+# ---- Logs & Reports ----
+logs/
+*.log
+*.out
+*.err
+
+# ---- Jupyter Notebook Checkpoints ----
+.ipynb_checkpoints/
+
+# ---- Data Files ----
+# Keep structure, ignore large or generated data
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+data/synthetic/*
+!data/synthetic/README.md
+
+# ---- DuckDB, Parquet, CSVs, etc. ----
+*.parquet
+*.duckdb
+*.csv
+*.zip
+
+# ---- Model Artifacts ----
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# ---- Cache & Temp ----
+.cache/
+*.tmp
+*.bak
+*.swp
+
+# ---- Unit Test Artifacts ----
+.pytest_cache/
+.coverage
+htmlcov/
+tests/__pycache__/
+
+# ---- System Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Local config files (optional) ----
+config.yaml
+configs/

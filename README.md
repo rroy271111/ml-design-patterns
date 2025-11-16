@@ -13,4 +13,4 @@ PyTorch ( for modelling and embeddings)
 3. Libraries: Pandas, PyTorch, Scikit-learn
 4. Environment: Jupyter Notebooks
 
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
